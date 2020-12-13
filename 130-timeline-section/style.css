@@ -1,0 +1,84 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.timeline-section{
+    background-image: url(img/10%20Incredible%20Mountains%20Wallpapers.jpg);
+}
+.timeline-section{
+    position: relative;
+    z-index: 1;
+}
+.timeline-section::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #072938;
+    opacity: .5;
+    z-index: -1
+}
+/*========================   Nav manu ==================*/
+
+.timeline-section {
+	padding: 100px 0;
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+}
+.section-tittle {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 80px;
+}
+.section-tittle h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.timeline-fame {
+  display: block;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid #385b6e;
+  margin: 0 auto;
+  padding: 2px;
+}
+.single-timeline-item {
+  position: relative;
+  margin: 0 auto;
+  width: 150px;
+}
+.single-timeline-item:after {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  content: "";
+  background: #345e72;
+  z-index: -1;
+  margin-left: -1px;
+}
+.timeline-text {
+  position: absolute;
+  background: #072908;
+  color: #fff;
+  width: 400px;
+  left: -430px;
+  top: 50%;
+  height: 160px;
+  padding: 29px;
+  margin-top: -80px;
+}
+
+
+
+
+
+
