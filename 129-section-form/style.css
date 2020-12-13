@@ -1,0 +1,104 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.booking-area{
+    background-image: url(img/background2.jpg);
+}
+
+
+
+.booking-text {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
+.sep-top {
+  max-width: 400px;
+  margin-top: 20px;
+}
+.booking-text h1 {
+  font-size: 70px;
+  margin-top: 20px;
+}
+.sep-bottom {
+  max-width: 250px;
+  margin-top: 20px;
+}
+.booking-area {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  position: relative;
+  z-index: 1;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.booking-area::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #000;
+  z-index: -1;
+  opacity: .4;
+}
+.booking-form {
+  margin-top: 50px;
+}
+.booking-form-element {
+  position: relative;
+  z-index: 2;
+  font-size: 23px;
+  font-weight: 700;
+  color: #e4c485;
+  padding: 20px;
+}
+.booking-form-element:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #000;
+  z-index: -2;
+  opacity: .5;
+}
+.booking-form-element label {
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 300;
+  opacity: .7;
+  margin-bottom: 15px;
+}
+.booking-form-element select {
+  background: none;
+  border: none;
+  color: #e4e485;
+  width: 100%;
+}
+.booking-form-element input[type=submit] {
+  font-size: 14px;
+  background: no-repeat;
+  border: none;
+  color: #e4c485;
+  text-transform: uppercase;
+  padding: 26px 10px;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
