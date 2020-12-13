@@ -1,0 +1,62 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.section-bg-1{
+    background-image: url(img/nice-bg.jpg);
+}
+
+
+/*========================   Nav manu ==================*/
+
+.section-padding {
+  padding: 150px 0;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.section-overlay {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.section-padding.section-overlay:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #333;
+  z-index: -1;
+  opacity: .5;
+  transition: .3s;
+}
+.section-padding.section-overlay hover::after {
+  opacity: .9;
+}
+h2 {
+  line-height: 1.6;
+  font-size: 30px;
+}
+.video-play-btn {
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px 40px;
+  background: #2c99ed;
+  border-radius: 15px;
+  color: #fff;
+  margin-top: 15px;
+}
+.section-overlay:hover::after {
+  opacity: .7;
+}
+
+
+
+
+
+
