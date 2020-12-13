@@ -1,0 +1,90 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.potfulio-list{
+    overflow: hidden;
+}
+.single-potfulio-item{
+    float: left;
+    width: 20%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+.single-potfulio-item.larg{
+    height: 500px;
+    width: 40%;
+}
+.single-potfulio-item.wide{
+    width: 40%;
+}
+.potfulio-bg-1{
+    background-image: url(img/car1.jpg);
+}
+.potfulio-bg-2{
+    background-image: url(img/img-2.jpg);
+}.potfulio-bg-3{
+    background-image: url(img/img-3.jpg);
+}.potfulio-bg-4{
+    background-image: url(img/img-4.jpg);
+}
+/*========================   Nav manu ==================*/
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-tittle {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.section-tittle h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.single-potfulio-item {
+  position: relative;
+  z-index: 1;
+}
+.single-potfulio-item:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #000;
+  z-index: -1;
+  opacity: 0;
+  transition: .3s;
+    visibility: hidden;
+}
+.single-potfulio-item a {
+  color: #fff;
+  opacity: .7;
+  display: inline-block;
+  position: absolute;
+  line-height: 283px;
+  margin: 0 auto;
+  margin-left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.single-potfulio-item:hover.single-potfulio-item::after {
+	opacity: .5;
+	visibility: visible;
+}
+.single-potfulio-item:hover a{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
