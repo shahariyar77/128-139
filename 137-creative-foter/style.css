@@ -1,0 +1,106 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.style-bg-1{
+    background-image: url(img/me.jpg);
+}
+
+.foter-top-area {
+  background: #f4f4f4;
+  padding: 60px 0;
+  color: #777;
+  margin-top: 200px;
+}
+.foter-top-area h2 {
+  font-size: 31px;
+  color: #333;
+}
+.newslater-form input[type="email"] {
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  width: 67%;
+}
+.newslater-form input[type="email"] {
+  border-bottom: 2px solid#ddd;
+}
+.newslater-form button {
+  border: none;
+}
+.newslater-form button {
+  border-bottom: 2px solid #c2a864;
+  background: none;
+  color: #333;
+  padding: 10px;
+  float: right;
+  width: 28%;
+}
+.newslater-form {
+  margin-top: 12px;
+  margin-left: 23px;
+}
+.footer-manu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-manu li {
+  display: inline-block;
+}
+.footer-manu a {
+  padding-left: 20px;
+  color: #333;
+}
+.social-link a {
+  cp: ;
+  color: #333;
+  padding: 8px;
+}
+.footer-manu {
+  margin-top: 25px;
+  margin-bottom: 16px;
+}
+.copyright-text {
+  margin-top: 32px;
+}
+.style-bg-inner {
+  background-size: cover;
+  background-position: center top;
+  background-color: #ddd;
+  height: 100%;
+  width: 100%;
+}
+.foter-bottom-area .container {
+  position: relative;
+}
+.style-bg {
+	height: 400px;
+	position: absolute;
+	width: 226px;
+	left: -45px;
+	bottom: 0;
+	z-index: 2;
+}
+.style-bg::after {
+  position: absolute;
+  left: -40px;
+  bottom: -40px;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #f4f4f4;
+  z-index: -1;
+}
+
+/*========================   Nav manu ==================*/
+
+
+
+
+
+
+
