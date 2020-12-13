@@ -1,0 +1,38 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+
+.particles-area {
+  padding: 80px 0;
+  background: #f76951;
+  color: #fff;
+    position: relative;
+}
+.particl-title {
+  text-align: center;
+  font-size: 20px;
+}
+.particl-title h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+#particlas canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/*========================   Nav manu ==================*/
+
+
+
+
+
+
+
